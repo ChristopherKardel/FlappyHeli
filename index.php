@@ -2,10 +2,10 @@
 
 error_reporting(E_ERROR | E_PARSE); //Keine Warnings anzeigen
 
-$servername = "localhost:3306";
-$username = "root";
-$password = "";
-$db = "flappydatabank"; // Datenbank Name
+$servername = "";
+$username = "admin";
+$password = "bti";
+$db = "FlappyHeli"; // Datenbank Name
 
 // Verbindung herstellen
 $mysqli = new mysqli($servername, $username, $password, $db);
