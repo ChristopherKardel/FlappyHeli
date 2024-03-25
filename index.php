@@ -2,10 +2,10 @@
 
 error_reporting(E_ERROR | E_PARSE); //Keine Warnings anzeigen
 
-$servername = "";
+$servername = "http://192.168.178.50/FlappyHeli";
 $username = "admin";
 $password = "bti";
-$db = "FlappyHeli"; // Datenbank Name
+$db = "FlappyHeli"; //Datenbank Name
 
 // Verbindung herstellen
 $mysqli = new mysqli($servername, $username, $password, $db);
