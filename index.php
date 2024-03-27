@@ -2,7 +2,8 @@
 
 error_reporting(E_ERROR | E_PARSE); //Keine Warnings anzeigen
 
-$servername = "http://192.168.178.50/FlappyHeli";
+$servername = "http://192.168.178.50:3306/";
+//$servername = "http://192.168.178.50/phpmyadmin/";
 $username = "admin";
 $password = "bti";
 $db = "FlappyHeli"; //Datenbank Name
